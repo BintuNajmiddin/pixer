@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url(style.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header .container {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 100px;
+    /* position: fixed; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 121px; */
+
+    background-color: white;
+    /* width: 100%;
+    top: 0px;
+    right: 0px; */
+    /* left:0px */
+    /* max-width: 1200px;
+} */
+}
+
+.logo {
+    /* margin-left:100px;  */
+    display: flex;
+}
+
+.navs {
+    margin-right: 32px;
+    color: #000000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.tel {
+    /* margin-right: 100px; */
+    background-color: #00BAFC;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px 8px 16px;
+}
+
+.firstnav {
+    margin-right: 100px;
+    display: flex;
+}
+
+.development {
+    margin-top: 97px;
+    margin-bottom: 80px;
+}
+
+.column-2 {
+    width: 470px;
+    height: 224px;
+    margin-right: 172px;
+}
+
+.column2 {
+    display: flex;
+}
+
+.recommendation {
+    height: 78px;
+    width: 470px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+
+}
+
+/* =====================
+        second
+====================== */
+
+.services {
+    margin-top: 80px;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.second-page p {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 719;
+    margin: auto;
+    text-align: center;
+}
+
+.server {
+    background-color: #00BAFC;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+.services h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+
+}
+
+.nullam {
+    height: 48px;
+    width: 719px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 209px;
+}
+
+.column5 {
+    height: 260px;
+    width: 26.3%;
+    padding: 24px;
+    margin-right: 50px;
+    margin-top: 48px;
+    /* flex-wrap: wrap; */
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.column5 img {
+    padding: 0px 40px;
+}
+
+.column5 a {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+}
+
+.links {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link2 {
+    color: #00BAFC;
+    margin-left: 16px;
+
+
+}
+
+.link1 {
+    border-radius: 5px;
+    background-color: #00BAFC;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+
+}
+
+/* ===========
+      third
+  ============ */
+.container-work {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.work h2 {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.column2 {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.work p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.work-p {
+    text-align: center;
+    width: 719px;
+    margin-left: 500px;
+}
+
+.work .row {
+    display: flex;
+    justify-content: center;
+}
+
+.ordering {
+    background-color: #00BAFC;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+/* ================
+       order
+  ================*/
+
+.order {
+    background-color: #00BAFC;
+    height: 543px;
+}
+
+.order h2 {
+    color: white;
+    padding-top: 56px;
+}
+
+.order p {
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 719px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.info {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 348px;
+    height: 304px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info input {
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: none;
+    width: 300px;
+
+}
+
+#services {
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 16px;
+    border: none;
+    width: 300px;
+}
+
+.command {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    background: #00BAFC;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* ========footer====== */
+.footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background: #191919;
+    color: #fff;
+}
+.footer .container{
+    max-width: 1100px;
+}
+.footer-script{
+    margin: 0 auto;
+    justify-content: left;
+    align-items: top;
+    display: flex;
+}
+.footer h3{
+    margin: 0 0 16px 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+footer li a:hover{
+    color: #00BAFC;
+}
+
+footer li a:active{
+    color: #00BAFC;
+}
+.socialmedia a:hover{
+    color: #00BAFC;
+
+}
+.socialmedia a:active{
+    color: #00BAFC;
+}  
+
+footer a, footer i{
+    color:white;
+}
+
+footer i{
+    margin-right:8px;
+}
+
+.copyright p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer li{
+    list-style:none;  
+    padding-bottom:8px;
+}
+
+footer ol{
+    padding-left:0;
+}
+.copyright{
+    width:320px;
+    margin-right: 100px;
+}
+
+.sitepages{
+    width:143px;
+    margin-right: 87px;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+}
+.socialmedia a{
+    display: inline-block;
+    padding-bottom:8px;
+}
+
+.ordered-list{
+    flex-direction: column;
+    display: flex;
+}
